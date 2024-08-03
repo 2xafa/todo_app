@@ -1,0 +1,37 @@
+
+  app:
+    android:
+      flavorDimensions: "flavor-type"
+
+  flavors:
+    dev:
+      app:
+        name: "Todo App Dev"
+      android:
+        applicationId: "com.google.todo_app_dev"
+      ios:
+        bundleId: "com.google.todoApp.dev"
+      macos:
+        bundleId: "com.google.todoApp.dev"
+
+    stage:
+      app:
+        name: "Todo App Stage"
+      android:
+        applicationId: "com.google.todo_app_stage"
+      ios:
+        bundleId: "com.google.todo_app_stage"
+      macos:
+        bundleId: "com.google.todo_app_stage"
+
+    prod:
+      app:
+        name: "Todo App Prod"
+      android:
+        applicationId: "com.google.todo_app"
+      ios:
+        bundleId: "com.google.todo_app"
+      macos:
+        bundleId: "com.google.todo_app"
+
+  ide: vscode
