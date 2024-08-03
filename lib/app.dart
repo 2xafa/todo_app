@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'flavors.dart';
-import 'screens/home_screen.dart';
+import 'screens/home_screen/home_screen.dart';
 
 class App extends StatelessWidget {
 

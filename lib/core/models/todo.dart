@@ -5,4 +5,11 @@ class Todo{
     required this.title,
     required this.comleted
   });
+
+  toMap(){
+    return {
+      "title": title,
+      "completed": comleted
+    };
+  }
 }
